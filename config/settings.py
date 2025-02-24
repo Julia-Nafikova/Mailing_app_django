@@ -15,8 +15,6 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-import users
-
 load_dotenv(override=True)
 
 from django.conf.global_settings import STATICFILES_DIRS, MEDIA_URL, MEDIA_ROOT
